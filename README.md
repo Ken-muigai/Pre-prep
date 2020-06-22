@@ -1,1 +1,1 @@
-# hard-hustle
+# Our first github pair programming project
