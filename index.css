@@ -1,0 +1,192 @@
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url(./images/shoe1.png);
+    opacity: 0.7;
+    height: 120%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;
+ }
+ 
+ nav > ul{
+   text-align:right;
+ }
+ 
+ nav > ul > li{
+   display:inline-block;
+ }
+ 
+ nav>ul>li>a {
+ padding: 18px;
+ margin-right: 0;
+ text-transform: uppercase;
+ text-decoration: none;
+ display: block;
+ color:hsla(115, 79%, 46%, 0.733);
+ background-color: blue;
+ }
+ 
+ nav>ul>li>a:hover{
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+   background: rgba(78, 57, 74, 0.678);
+   color: rgba(0, 35, 122, 0.7);
+ }
+
+ .main{
+     position: absolute;
+     top: 30%;
+     left: 10%  ;
+ }
+
+ #shoe2{
+    opacity: 2.5;
+ }
+
+ .main2{
+     position: absolute;
+     top: 30%;
+     left: 30%;
+ }
+
+ .main3{
+     position: absolute;
+     top: 30%;
+     left: 50%;
+ }
+
+ .main4{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+
+.main5{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+
+.main6{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+}
+
+.main7{
+    position: absolute;
+    top: 30%;
+    left: 72%;
+}
+
+.main8{
+    position: absolute;
+    top: 70%;
+    left: 72%;
+}
+
+
+
+footer{
+    position: absolute;
+    bottom: 0px;
+}
+
+.contacts{
+    position: absolute;
+    top:100%;
+    left: 0%;
+    bottom: 0%;
+}
+
+.contacts ul li{
+    list-style: none;
+    padding:5px;
+}
+
+.contacts ul li a{
+    text-decoration: none;
+    color:maroon;
+    top: 100%;
+}
+
+.contacts ul li a:hover{
+    background-color: blueviolet;
+}
+
+#smd{
+    position: relative;
+    left: 500px;
+    top: 90px;
+}
+
+#smd > i{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-facebook:hover{
+      background-color:navy;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-twitter:hover{
+      background-color: cornflowerblue;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-instagram:hover{
+      background-color: palevioletred;
+  }
+
+
+
+  span{
+      position: absolute;
+      top: 50px;
+      left: 10px;
+  }
+
+  div a{
+      text-decoration: none;
+      color: aqua;
+  }
+#one,#two,#three,#four,#five,#six,#seven,#eight:hover{
+    background-color: black;
+    align-content: center;
+}
+div a p:hover{
+    background-color: black;
+}
+
+
+.header{
+    position: absolute;
+    left:35%;
+    top: 15%;
+    font-size: 50px;
+    font-family:'Brush Script MT, Brush Script Std, cursive';
+}
